@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,8 +6,8 @@
     <style>
         body {
             background-color: #101B36;
-            color: white;
-            font-family: Arial, sans-serif;
+            color: #E2E8F0;
+            font-family: sans-serif;
             margin: 0;
             padding: 0;
             line-height: 1.6;
@@ -32,9 +31,9 @@
             position: absolute;
             left: 20px;
             top: 10px;
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
+            width: 140px;
+            height: 140px;
+            border-radius: 0,5%;
         }
 
         header h1 a {
