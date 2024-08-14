@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roubini Garantzioti</title>
+    <title>𝑹𝒐𝒖𝒃𝒊𝒏𝒊 𝑮𝒂𝒓𝒂𝒏𝒕𝒛𝒊𝒐𝒕𝒊</title>
     <style>
         body {
             background-color: #101B36;
