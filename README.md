@@ -31,9 +31,9 @@
             position: absolute;
             left: 20px;
             top: 10px;
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            border-radius: 60%;
         }
 
         header h1 a {
@@ -89,7 +89,7 @@
         }
 
         .social-icons img {
-            width: 24px;
+            width: 28px;
             margin-right: 10px;
             vertical-align: middle;
         }
