@@ -98,6 +98,20 @@
             padding: 0;
             vertical-align: middle;
         }
+
+        .intro {
+            margin-top: 20px;
+            color: #E2E8F0;
+        }
+
+        .intro h3 {
+            margin-top: 10px;
+            color: #E2E8F0;
+        }
+
+        .intro p {
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -110,7 +124,19 @@
         </nav>
         <div class="header-content">
             <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
-            <h3><p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p></h3>
+            <div class="intro">
+                <h3><a href="https://github.com/roubinigar">🚀 Performance Marketer</a></h3>
+                <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
+                <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
+                🎯 Strategic Planning <br>
+                💼 Campaign Management <br>
+                🔍 Analytics & Insights <br>
+                🤝 Cross-functional Collaboration
+                </p>
+                <p><strong>𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐏𝐡𝐢𝐥𝐨𝐬𝐨𝐩𝐡𝐲:</strong><br>
+                I am passionate about taking the most of every opportunity. I thrive on learning more and constantly exploring different points of view in my field. My passion for evolution and advancement drives me to stay at the forefront of digital marketing trends and technology.
+                </p>
+            </div>
         </div>
     </header>
 
