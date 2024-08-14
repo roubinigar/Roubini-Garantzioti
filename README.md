@@ -6,7 +6,7 @@
     <title>Roubini's Portfolio</title>
     <style>
         body {
-            background-color: #00008B;
+            background-color: #101B36;
             color: white;
             font-family: Arial, sans-serif;
             margin: 0;
@@ -21,10 +21,20 @@
         }
 
         header {
-            background: #333;
+            background: #101B36;
             color: #fff;
             padding: 20px 0;
             text-align: center;
+            position: relative;
+        }
+
+        header img {
+            position: absolute;
+            left: 20px;
+            top: 10px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
         }
 
         header h1 a {
@@ -35,7 +45,7 @@
         nav {
             display: flex;
             justify-content: center;
-            background: #444;
+            background: #101B36;
             padding: 10px 0;
         }
 
@@ -47,24 +57,23 @@
         }
 
         nav a:hover {
-            background: #555;
-            color: #fff;
+            text-decoration: underline;
         }
 
         section {
             margin: 20px 0;
             padding: 20px;
-            background: #222;
+            background: #101B36;
             border-radius: 5px;
         }
 
         h2 {
-            color: #ffcc00;
+            color: #ffffff;
             margin-bottom: 15px;
         }
 
         a {
-            color: #ffcc00;
+            color: #ffffff;
             text-decoration: none;
         }
 
@@ -75,7 +84,7 @@
         footer {
             text-align: center;
             padding: 10px 0;
-            background: #333;
+            background: #101B36;
             color: #fff;
             margin-top: 20px;
         }
@@ -90,6 +99,7 @@
 <body>
 
     <header>
+        <img src="path_to_your_image.jpg" alt="Roubini's Photo">
         <h1>Hi, I'm <a href="#">Roubini!</a></h1>
         <p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p>
     </header>
