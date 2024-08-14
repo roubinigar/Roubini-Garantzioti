@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,14 +32,14 @@
             position: absolute;
             left: 20px;
             top: 10px;
-            width: 180px;
-            height: 180px;
+            width: 80px;
+            height: 80px;
             border-radius: 50%;
         }
 
         header h1 a {
             color: #fff;
-            text-decoration: none;
+            text-decoration: none; /* Αφαιρεί την υπογράμμιση */
         }
 
         nav {
@@ -89,7 +90,7 @@
         }
 
         .social-icons img {
-            width: 32px;
+            width: 22px;
             margin-right: 10px;
             vertical-align: middle;
         }
@@ -97,11 +98,11 @@
 </head>
 <body>
 
-<header>
-    <img src="https://i.imgur.com/adw3gaQ.jpg" alt="Roubini's Photo">
-    <h1>Hi, I'm <a href="#" style="text-decoration: none;">Roubini!</a></h1>
-    <p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p>
-</header>
+    <header>
+        <img src="https://i.imgur.com/adw3gaQ.jpg" alt="Roubini's Photo">
+        <h1>Hi, I'm <a href="#">Roubini!</a></h1>
+        <p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p>
+    </header>
 
     <nav>
         <a href="#projects">Projects</a>
@@ -150,7 +151,7 @@
             <h2>Connect with me:</h2>
             <p class="social-icons">
                 <a href="https://linkedin.com/in/roubinigarantzioti">
-                    <img align="left" alt="LinkedIn" width="32px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+                    <img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
                     LinkedIn
                 </a>
             </p>
