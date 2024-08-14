@@ -130,7 +130,6 @@
         }
     </style>
 </head>
-<body>
     <header>
         <nav>
             <a href="#about">About</a>
@@ -144,7 +143,7 @@
         <h2>About</h2>
         <div class="intro">
             <div class="text">
-                <p> Performance Marketer - Data Driven Strategies </p>
+                <p><strong> Performance Marketer - Data Driven Strategies </strong><br>
                 <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
                 <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
                 🎯 Strategic Planning <br>
@@ -171,10 +170,7 @@
         <h2>Projects</h2>
         <ul>
             <li><a href="https://www.youtube.com/watch?v=a83ASGn_V_s">How to get into Cybersecurity Starting From Zero</a></li>
-            <li><a href="https://www.youtube.com/watch?v=uHy3oM7NnoU">A Day in the Life of a Cybersecurity Analyst</a></li>
-            <li><a href="https://www.youtube.com/watch?v=N-L9hklSlNk">How to Create a KeyLogger (C#)</a></li>
-            <li><a href="https://www.youtube.com/watch?v=OfvdQeh79s0">Ransomware Demonstration (C#)</a></li>
-            <li><a href="https://www.youtube.com/watch?v=E2MwRWxDBkA">Is WGU Legit?</a></li>
+           
         </ul>
     </section>
 
