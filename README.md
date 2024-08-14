@@ -157,12 +157,12 @@
             </div>
         </div>
     <section id="experience">
-        <h2>About</h2>
+        <h2>Experience</h2>
         <!-- Add your experience content here -->
     </section>
 
     <section id="education">
-        <h2>Experience</h2>
+        <h2>education</h2>
         <!-- Add your experience content here -->
     </section>
 
@@ -177,7 +177,7 @@
         <h2>Connect with me</h2>
         <p class="social-icons">
             <a href="https://linkedin.com/in/roubinigarantzioti">
-                <img align="left" alt="LinkedIn" width="30px" src="https://imgur.com/M9e9peZ.jpg" />
+                <img align="left" alt="LinkedIn" width="30px" src="https://imgur.com/uoazLV3.jpg" />
                 LinkedIn
             </a>
         </p>
