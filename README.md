@@ -90,7 +90,7 @@
 
         .social-icons img {
             width: 22px;
-            margin-right: 10px;
+            margin-right: 0px;
             vertical-align: middle;
         }
     </style>
