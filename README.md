@@ -29,7 +29,7 @@
 
         header img {
             position: absolute;
-            left: 5px;
+            left: 0px;
             top: 10px;
             width: 350px;
             height: 350px;
