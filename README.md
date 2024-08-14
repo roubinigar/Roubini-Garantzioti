@@ -61,11 +61,11 @@
          #experience {
             margin-top: 40px; /* Adjust this value to create more or less space above the Experience section */
     
-        .intro {
-            display: flex;
-            align-items: flex-start;
-            padding: 20px;
-            justify-content: space-between; /* Εξασφαλίζει ότι το κείμενο και η εικόνα θα τοποθετηθούν στα δύο άκρα */
+       .intro {
+           display: flex;
+           justify-content: space-between;
+           padding: 20px;
+           align-items: flex-start;
         }
 
          .intro .text {
@@ -89,12 +89,19 @@
             margin: 10px 0;
         }
 
-        .intro .image img {
-            width: 100%; /* Adjust image to fit within its container */
-            max-width: 300px;
-            height: auto;
-            border-radius: 50%;
-        }
+        .intro .image {
+            flex: 1; /* Καταλαμβάνει το 1/3 του διαθέσιμου χώρου */
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+         }
+
+         .intro .image img {
+             width: 100%; /* Κάνει την εικόνα να γεμίζει το 1/3 της διάταξης */
+             max-width: 300px;
+             height: auto;
+             border-radius: 50%;
+         }
 
         h2 {
             color: #E2E8F0;
