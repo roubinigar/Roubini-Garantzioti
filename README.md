@@ -32,13 +32,6 @@
             margin: 0;
         }
 
-        .header-content img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-left: 20px;
-        }
-
         nav {
             display: flex;
             justify-content: flex-end;
@@ -141,7 +134,6 @@
     <header>
         <div class="header-content">
             <h1>Roubini Garantzioti</h1>
-            <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
         </div>
         <nav>
             <a href="#about">About</a>
