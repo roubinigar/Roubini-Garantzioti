@@ -28,7 +28,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0 20px;
+            padding: 0; /* Αφαίρεση padding */
         }
 
         .header-content h1 {
