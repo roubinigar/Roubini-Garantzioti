@@ -28,8 +28,8 @@
         }
 
         header img {
-            position: absolute;
-            left: 0px;
+            position: relative;
+            left: -30px;
             top: 10px;
             width: 350px;
             height: 350px;
