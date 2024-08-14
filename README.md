@@ -148,4 +148,23 @@
             <li><a href="https://www.youtube.com/watch?v=uHy3oM7NnoU">A Day in the Life of a Cybersecurity Analyst</a></li>
             <li><a href="https://www.youtube.com/watch?v=N-L9hklSlNk">How to Create a KeyLogger (C#)</a></li>
             <li><a href="https://www.youtube.com/watch?v=OfvdQeh79s0">Ransomware Demonstration (C#)</a></li>
-            <li><a href="https://www.youtube.com/watch?v=E2MwRWxDBkA">Is W
+            <li><a href="https://www.youtube.com/watch?v=E2MwRWxDBkA">Is WGU Legit?</a></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Connect with me:</h2>
+        <p class="social-icons">
+            <a href="https://linkedin.com/in/roubinigarantzioti">
+                <img align="middle" alt="LinkedIn" width="30px" src="https://imgur.com/M9e9peZ.jpg" />
+                LinkedIn
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Roubini Garantzioti © 2024</p>
+    </footer>
+
+</body>
+</html>
