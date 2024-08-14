@@ -19,6 +19,7 @@
             padding: 20px 0;
             text-align: left;
             position: relative;
+            border: none;
         }
 
         .header-content {
@@ -27,6 +28,7 @@
             justify-content: space-between;
             position: relative;
             z-index: 1;
+            border: none;
         }
 
         header img {
@@ -36,11 +38,13 @@
             width: 300px;
             height: 300px;
             border-radius: 0%;
+            border: none;
         }
 
         header h1 a {
             color: #E2E8F0;
             text-decoration: none;
+            border: none;
         }
 
         nav {
@@ -51,6 +55,7 @@
             font-weight: bold;
             position: relative;
             z-index: 2;
+            border: none;
         }
 
         nav a {
@@ -59,11 +64,13 @@
             padding: 0 15px;
             font-size: 18px;
             transition: color 0.3s ease;
+            border: none;
         }
 
         nav a:hover,
         nav a:focus {
             color: #009896;
+            border: none;
         }
 
         section {
@@ -71,22 +78,26 @@
             padding: 10px;
             background: #101B36;
             border-radius: 5px;
+            border: none;
         }
 
         h2 {
             color: #E2E8F0;
             margin-bottom: 15px;
+            border: none;
         }
 
         a {
             color: #E2E8F0;
             text-decoration: none;
             transition: color 0.3s ease;
+            border: none;
         }
 
         a:hover,
         a:focus {
             color: #009896;
+            border: none;
         }
 
         footer {
@@ -95,6 +106,7 @@
             background: #101B36;
             color: #E2E8F0;
             margin-top: 20px;
+            border: none;
         }
 
         .social-icons img {
@@ -102,6 +114,7 @@
             margin-right: 0px;
             padding: 0;
             vertical-align: left;
+            border: none;
         }
     </style>
 </head>
