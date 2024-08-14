@@ -22,18 +22,19 @@
             width: 100%;
         }
 
-        nav {
-            display: flex;
-            justify-content: flex-end;
-            background: #101B36;
-            padding: 10px 0;
-            font-weight: bold;
-            position: absolute;
-            top: 0;
-            right: 0;
-            z-index: 2;
-            width: 100%;
-        }
+       nav {
+    display: flex;
+    justify-content: flex-end;
+    background: #101B36;
+    padding: 10px 0;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 2;
+    width: 100%;
+    margin-bottom: 60px; /* Αυξήστε ή μειώστε την τιμή για περισσότερες ή λιγότερες σειρές */
+}
 
         nav a {
             color: #E2E8F0;
