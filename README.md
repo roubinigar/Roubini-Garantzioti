@@ -20,9 +20,14 @@
             padding: 20px 0;
             text-align: left;
             position: relative;
+        }
+
+        .header-content {
             display: flex;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: space-between;
+            position: relative;
+            z-index: 1;
         }
 
         header img {
@@ -34,6 +39,7 @@
 
         .intro {
             color: #E2E8F0;
+            margin-right: 350px; /* Adjusted to make space for tabs */
         }
 
         .intro h3 {
@@ -48,7 +54,9 @@
         .nav-container {
             background: #101B36;
             padding: 10px 0;
-            text-align: center;
+            text-align: right;
+            position: relative;
+            z-index: 2;
         }
 
         nav {
@@ -110,33 +118,34 @@
 </head>
 <body>
     <header>
-        <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
-        <div class="intro">
-            <h3>
-                <a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, 
-                <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a>
-            </h3>
-            <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
-            <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
-            🎯 Strategic Planning <br>
-            💼 Campaign Management <br>
-            🔍 Analytics & Insights <br>
-            🤝 Cross-functional Collaboration
-            </p>
-            <p><strong>𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐏𝐡𝐢𝐥𝐨𝐬𝐨𝐩𝐡𝐲:</strong><br>
-            I am passionate about taking the most of every opportunity. I thrive on learning more and constantly exploring different points of view in my field. My passion for evolution and advancement drives me to stay at the forefront of digital marketing trends and technology.
-            </p>
+        <div class="header-content">
+            <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
+            <div class="intro">
+                <h3>
+                    <a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, 
+                    <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a>
+                </h3>
+                <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
+                <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
+                🎯 Strategic Planning <br>
+                💼 Campaign Management <br>
+                🔍 Analytics & Insights <br>
+                🤝 Cross-functional Collaboration
+                </p>
+                <p><strong>𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐏𝐡𝐢𝐥𝐨𝐬𝐨𝐩𝐡𝐲:</strong><br>
+                I am passionate about taking the most of every opportunity. I thrive on learning more and constantly exploring different points of view in my field. My passion for evolution and advancement drives me to stay at the forefront of digital marketing trends and technology.
+                </p>
+            </div>
+        </div>
+        <div class="nav-container">
+            <nav>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Connect</a>
+            </nav>
         </div>
     </header>
-
-    <div class="nav-container">
-        <nav>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Connect</a>
-        </nav>
-    </div>
 
     <section id="about">
         <h2>About</h2>
@@ -173,4 +182,23 @@
             <li><a href="https://www.youtube.com/watch?v=a83ASGn_V_s">How to get into Cybersecurity Starting From Zero</a></li>
             <li><a href="https://www.youtube.com/watch?v=uHy3oM7NnoU">A Day in the Life of a Cybersecurity Analyst</a></li>
             <li><a href="https://www.youtube.com/watch?v=N-L9hklSlNk">How to Create a KeyLogger (C#)</a></li>
-            <li><a href="https://www.youtube.com/watch?v=OfvdQeh79s0">Ransomware Demons
+            <li><a href="https://www.youtube.com/watch?v=OfvdQeh79s0">Ransomware Demonstration (C#)</a></li>
+            <li><a href="https://www.youtube.com/watch?v=E2MwRWxDBkA">Is WGU Legit?</a></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Connect with me</h2>
+        <p class="social-icons">
+            <a href="https://linkedin.com/in/roubinigarantzioti">
+                <img align="middle" alt="LinkedIn" width="30px" src="https://imgur.com/M9e9peZ.jpg" />
+                LinkedIn
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Roubini Garantzioti © 2024</p>
+    </footer>
+</body>
+</html>
