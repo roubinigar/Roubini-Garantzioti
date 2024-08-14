@@ -123,7 +123,7 @@
     <header>
         <nav>
             <a href="#about">About</a>
-            <a href="#youtube">YouTube</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Connect</a>
         </nav>
         <div class="header-content">
@@ -168,7 +168,7 @@
     </section>
 
     <section id="contact">
-        <h2>Connect with me:</h2>
+        <h2>Connect with me</h2>
         <p class="social-icons">
             <a href="https://linkedin.com/in/roubinigarantzioti">
                 <img align="middle" alt="LinkedIn" width="30px" src="https://imgur.com/M9e9peZ.jpg" />
