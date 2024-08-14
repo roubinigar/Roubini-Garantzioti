@@ -25,12 +25,14 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            position: relative;
+            z-index: 1;
         }
 
         header img {
             position: absolute;
             left: 800px;
-            top: 8px;
+            top: 80px;
             width: 300px;
             height: 300px;
             border-radius: 0%;
@@ -46,6 +48,9 @@
             justify-content: flex-end;
             background: #101B36;
             padding: 10px 0;
+            font-weight: bold;
+            position: relative;
+            z-index: 2;
         }
 
         nav a {
@@ -101,17 +106,16 @@
 <body>
     
     <header>
-      <div class="header-content">
-        <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
-        <h2><p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p></h2>
-      </div>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#youtube">YouTube</a>
+            <a href="#contact">Connect</a>
+        </nav>
+        <div class="header-content">
+            <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
+            <h2><p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p></h2>
+        </div>
     </header>
-
-    <nav>
-        <a href="#projects">Projects</a>
-        <a href="#youtube">YouTube</a>
-        <a href="#contact">Connect</a>
-    </nav>
 
     <section id="projects">
         <h2> Software Development Projects:</h2>
@@ -144,23 +148,4 @@
             <li><a href="https://www.youtube.com/watch?v=uHy3oM7NnoU">A Day in the Life of a Cybersecurity Analyst</a></li>
             <li><a href="https://www.youtube.com/watch?v=N-L9hklSlNk">How to Create a KeyLogger (C#)</a></li>
             <li><a href="https://www.youtube.com/watch?v=OfvdQeh79s0">Ransomware Demonstration (C#)</a></li>
-            <li><a href="https://www.youtube.com/watch?v=E2MwRWxDBkA">Is WGU Legit?</a></li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Connect with me:</h2>
-        <p class="social-icons">
-            <a href="https://linkedin.com/in/roubinigarantzioti">
-                <img align="middle" alt="LinkedIn" width="30px" src="https://imgur.com/M9e9peZ.jpg" />
-                LinkedIn
-            </a>
-        </p>
-    </section>
-
-    <footer>
-        <p>Roubini Garantzioti © 2024</p>
-    </footer>
-
-</body>
-</html>
+            <li><a href="https://www.youtube.com/watch?v=E2MwRWxDBkA">Is W
