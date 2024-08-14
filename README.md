@@ -18,7 +18,7 @@
             color: #E2E8F0;
             padding: 0;
             position: relative;
-            border-bottom: 2px solid #E2E8F0;
+            border-bottom: none;
         }
         .markdown-body h1 {
          border-bottom: none;
