@@ -89,7 +89,7 @@
         }
 
         .social-icons img {
-            width: 28px;
+            width: 32px;
             margin-right: 10px;
             vertical-align: middle;
         }
@@ -150,7 +150,7 @@
             <h2>Connect with me:</h2>
             <p class="social-icons">
                 <a href="https://linkedin.com/in/roubinigarantzioti">
-                    <img align="left" alt="LinkedIn" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+                    <img align="left" alt="LinkedIn" width="32px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
                     LinkedIn
                 </a>
             </p>
