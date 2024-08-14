@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roubini's Portfolio</title>
+    <title>Roubini Garantzioti</title>
     <style>
         body {
             background-color: #101B36;
@@ -23,7 +23,7 @@
             background: #101B36;
             color: #E2E8F0;
             padding: 20px 0;
-            text-align: center;
+            text-align: left;
             position: relative;
         }
 .header-content {
