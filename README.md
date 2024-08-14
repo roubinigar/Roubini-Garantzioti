@@ -150,7 +150,7 @@
             <h2>Connect with me:</h2>
             <p class="social-icons">
                 <a href="https://linkedin.com/in/roubinigarantzioti">
-                    <img align="left" alt="LinkedIn" width="28px" src="[https://imgur.com/M9e9peZ].svg" />
+                    <img align="left" alt="LinkedIn" width="28px" src="https://imgur.com/M9e9peZ.jpg" />
                     LinkedIn
                 </a>
             </p>
