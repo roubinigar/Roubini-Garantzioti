@@ -128,7 +128,7 @@
         </nav>
         <div class="header-content">
             <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
-            <h2><p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p></h2>
+            <h3><p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p></h3>
         </div>
     </header>
 
