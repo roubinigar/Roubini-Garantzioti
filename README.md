@@ -34,16 +34,16 @@
             margin: 0;
         }
 
-        nav {
-    display: flex;
-    justify-content: flex-end;
-    background: #101B36;
-    padding: 10px 0;
-    font-weight: bold;
-    position: absolute;
-    top: 0px; /* Αυτή η γραμμή ορίζει το πόσο ψηλά είναι τα tabs */
-    right: 20px;
-    z-index: 2;
+          nav {
+        display: flex;
+        justify-content: flex-end;
+        background: #101B36;
+        padding: 10px 0;
+        font-weight: bold;
+        position: absolute;
+        top: -10px;
+        right: 20px;
+        z-index: 2;
 }
 
         }
