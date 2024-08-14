@@ -21,7 +21,7 @@
 
         header {
             background: #101B36;
-            color: #fff;
+            color: #E2E8F0;
             padding: 20px 0;
             text-align: center;
             position: relative;
@@ -33,11 +33,11 @@
             top: 10px;
             width: 140px;
             height: 140px;
-            border-radius: 0,5%;
+            border-radius: 50%;
         }
 
         header h1 a {
-            color: #fff;
+            color: #E2E8F0;
             text-decoration: none; /* Αφαιρεί την υπογράμμιση */
         }
 
@@ -67,12 +67,12 @@
         }
 
         h2 {
-            color: #ffffff;
+            color: #E2E8F0;
             margin-bottom: 15px;
         }
 
         a {
-            color: #ffffff;
+            color: #E2E8F0;
             text-decoration: none;
         }
 
@@ -84,7 +84,7 @@
             text-align: center;
             padding: 10px 0;
             background: #101B36;
-            color: #fff;
+            color: #E2E8F0;
             margin-top: 20px;
         }
 
