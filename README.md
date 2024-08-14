@@ -81,10 +81,12 @@
         a {
             color: #E2E8F0;
             text-decoration: none;
+            transition: color 0.3s ease;
         }
 
-        a:hover {
-            text-decoration: none;
+        a:hover,
+        a:focus {
+            color: #009896;
         }
 
         footer {
