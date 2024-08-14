@@ -98,8 +98,8 @@
 <body>
 
     <header>
-        <img src="path_to_your_image.jpg" alt="Roubini's Photo">
-        <h1>Hi, I'm <a href="#">Roubini!</a></h1>
+        <img src="[https://imgur.com/adw3gaQ].jpg" alt="Roubini's Photo">
+        <h1>Roubini<a href="#">Garantzioti</a></h1>
         <p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p>
     </header>
 
