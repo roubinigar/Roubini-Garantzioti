@@ -29,10 +29,10 @@
 
         header img {
             position: absolute;
-            left: 15px;
+            left: 10px;
             top: 10px;
-            width: 250px;
-            height: 250px;
+            width: 300px;
+            height: 300px;
             border-radius: 0%;
         }
 
@@ -91,7 +91,8 @@
         .social-icons img {
             width: 22px;
             margin-right: 0px;
-            vertical-align: left;
+            padding: 0;
+            vertical-align: middle; /* Εξασφαλίζει ότι το εικονίδιο είναι ευθυγραμμισμένο κατακόρυφα με το κείμενο */
         }
     </style>
 </head>
@@ -150,7 +151,7 @@
             <h2>Connect with me:</h2>
             <p class="social-icons">
                 <a href="https://linkedin.com/in/roubinigarantzioti">
-                    <img align="left" alt="LinkedIn" width="28px" src="https://imgur.com/M9e9peZ.jpg" />
+                    <img align="middle" alt="LinkedIn" width="30px" src="https://imgur.com/M9e9peZ.jpg" />
                     LinkedIn
                 </a>
             </p>
