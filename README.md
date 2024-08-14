@@ -85,7 +85,7 @@
         }
 
         .intro .image img {
-            width: 100%;
+            width: 50%;
             max-width: 300px;
             height: auto;
             border-radius: 50%;
