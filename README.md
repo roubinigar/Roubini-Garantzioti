@@ -120,15 +120,15 @@
             width: 30px;
             margin-right: 0px;
             padding: 0;
-            vertical-align: middle;
+            vertical-align: left;
         }
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
+            <a href="#about">Experience</a>
+            <a href="#experience">Education</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Connect</a>
         </nav>
@@ -156,12 +156,12 @@
                 <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
             </div>
         </div>
-    <section id="about">
+    <section id="experience">
         <h2>About</h2>
         <!-- Add your experience content here -->
     </section>
 
-    <section id="experience">
+    <section id="education">
         <h2>Experience</h2>
         <!-- Add your experience content here -->
     </section>
@@ -177,7 +177,7 @@
         <h2>Connect with me</h2>
         <p class="social-icons">
             <a href="https://linkedin.com/in/roubinigarantzioti">
-                <img align="middle" alt="LinkedIn" width="30px" src="https://imgur.com/M9e9peZ.jpg" />
+                <img align="left" alt="LinkedIn" width="30px" src="https://imgur.com/M9e9peZ.jpg" />
                 LinkedIn
             </a>
         </p>
