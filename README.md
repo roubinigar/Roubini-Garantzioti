@@ -112,7 +112,7 @@
     <div class="container">
 
         <section id="projects">
-            <h2>👨‍💻 Software Development Projects:</h2>
+            <h2> Software Development Projects:</h2>
             <ul>
                 <li><b>Data Structures and Algorithms Practice (AlgoExpert)</b> - <a href="https://github.com/joshmadakor1/Algorithms-Practice">Practicing DS & Algos in Python</a></li>
                 <li><b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b> - <a href="https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964">Image Analysis Middleware</a> <b><i>(Potentially NSFW)</i></b></li>
@@ -136,7 +136,7 @@
         </section>
 
         <section id="youtube">
-            <h2>📺 Popular YouTube Videos</h2>
+            <h2> Popular YouTube Videos</h2>
             <ul>
                 <li><a href="https://www.youtube.com/watch?v=a83ASGn_V_s">How to get into Cybersecurity Starting From Zero</a></li>
                 <li><a href="https://www.youtube.com/watch?v=uHy3oM7NnoU">A Day in the Life of a Cybersecurity Analyst</a></li>
