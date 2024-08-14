@@ -95,11 +95,12 @@
             border-radius: 50%;
         }
 
-        section {
-            margin: 20px;
-            padding: 20px;
-            background: #101B36;
-            border-radius: 5px;
+       section {
+    margin: 0; /* Αφαίρεση περιθωρίων */
+    padding: 20px;
+    background: #101B36;
+    border-radius: 5px;
+    width: 100%; /* Να καλύπτει πλήρως το πλάτος */
         }
 
         h2 {
