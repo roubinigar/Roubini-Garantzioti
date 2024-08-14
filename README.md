@@ -97,11 +97,11 @@
 </head>
 <body>
 
-    <header>
-        <img src="https://imgur.com/adw3gaQ.jpg" alt="Roubini's Photo">
-        <h1> Roubini <a href="#" style="text-decoration: none;"> Garantzioti</a></h1>
-        <p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p>
-    </header>
+<header>
+    <img src="https://i.imgur.com/adw3gaQ.jpg" alt="Roubini's Photo">
+    <h1>Hi, I'm <a href="#" style="text-decoration: none;">Roubini!</a></h1>
+    <p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p>
+</header>
 
     <nav>
         <a href="#projects">Projects</a>
