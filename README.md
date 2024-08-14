@@ -19,7 +19,6 @@
             padding: 20px 0;
             text-align: left;
             position: relative;
-            border: none;
         }
 
         .header-content {
@@ -28,7 +27,6 @@
             justify-content: space-between;
             position: relative;
             z-index: 1;
-            border: none;
         }
 
         header img {
@@ -38,13 +36,6 @@
             width: 300px;
             height: 300px;
             border-radius: 0%;
-            border: none;
-        }
-
-        header h1 a {
-            color: #E2E8F0;
-            text-decoration: none;
-            border: none;
         }
 
         nav {
@@ -55,7 +46,6 @@
             font-weight: bold;
             position: relative;
             z-index: 2;
-            border: none;
         }
 
         nav a {
@@ -64,13 +54,11 @@
             padding: 0 15px;
             font-size: 18px;
             transition: color 0.3s ease;
-            border: none;
         }
 
         nav a:hover,
         nav a:focus {
             color: #009896;
-            border: none;
         }
 
         section {
@@ -78,26 +66,22 @@
             padding: 10px;
             background: #101B36;
             border-radius: 5px;
-            border: none;
         }
 
         h2 {
             color: #E2E8F0;
             margin-bottom: 15px;
-            border: none;
         }
 
         a {
             color: #E2E8F0;
             text-decoration: none;
             transition: color 0.3s ease;
-            border: none;
         }
 
         a:hover,
         a:focus {
             color: #009896;
-            border: none;
         }
 
         footer {
@@ -106,15 +90,13 @@
             background: #101B36;
             color: #E2E8F0;
             margin-top: 20px;
-            border: none;
         }
 
         .social-icons img {
             width: 30px;
             margin-right: 0px;
             padding: 0;
-            vertical-align: left;
-            border: none;
+            vertical-align: middle;
         }
     </style>
 </head>
@@ -132,8 +114,8 @@
         </div>
     </header>
 
-    <section id="About">
-        <h2> About</h2>
+    <section id="about">
+        <h2>About</h2>
         <ul>
             <li><b>Data Structures and Algorithms Practice (AlgoExpert)</b> - <a href="https://github.com/joshmadakor1/Algorithms-Practice">Practicing DS & Algos in Python</a></li>
             <li><b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b> - <a href="https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964">Image Analysis Middleware</a> <b><i>(Potentially NSFW)</i></b></li>
@@ -156,8 +138,8 @@
         </ul>
     </section>
 
-    <section id="Projects">
-        <h2> Projects</h2>
+    <section id="projects">
+        <h2>Projects</h2>
         <ul>
             <li><a href="https://www.youtube.com/watch?v=a83ASGn_V_s">How to get into Cybersecurity Starting From Zero</a></li>
             <li><a href="https://www.youtube.com/watch?v=uHy3oM7NnoU">A Day in the Life of a Cybersecurity Analyst</a></li>
