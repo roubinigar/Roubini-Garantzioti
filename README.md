@@ -60,7 +60,7 @@
         }
 
         nav a:hover {
-            text-decoration: underline;
+            text-decoration: none;
         }
 
         section {
