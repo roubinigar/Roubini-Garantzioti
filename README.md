@@ -105,8 +105,7 @@
     <header>
       <div class="header-content">
         <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
-        <h1>Roubini <a href="#">Garantzioti</a></h1>
-        <p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p>
+        <h1><p><a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a></p></h1>
       </div>
     </header>
 
