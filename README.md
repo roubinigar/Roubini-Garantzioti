@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,23 +20,21 @@
             padding: 0;
             position: relative;
             border-bottom: none;
-            width: 100%;
         }
 
-       nav {
+        nav {
             display: flex;
             justify-content: flex-end;
             background: #101B36;
             padding: 10px 0;
             font-weight: bold;
-            position: absolute;
+            position: relative;
             top: 0;
-            right: 20px;
-            z-index: 2;
+            right: 0;
             width: 100%;
-            margin-bottom: 100px; /* Αυξήστε ή μειώστε την τιμή για περισσότερες ή λιγότερες σειρές */   
+            z-index: 2;
         }
-       
+
         nav a {
             color: #E2E8F0;
             text-decoration: none;
@@ -49,10 +48,21 @@
             color: #009896;
         }
 
+        .spacer {
+            height: 60px; /* Adjust this value to create the desired space */
+            width: 100%;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: #101B36;
+            border-radius: 5px;
+        }
+
         .intro {
             display: flex;
             align-items: flex-start;
-            justify-content: space-between;
             padding: 20px;
         }
 
@@ -66,6 +76,10 @@
             color: #E2E8F0;
         }
 
+        .intro .text p {
+            margin: 10px 0;
+        }
+
         .intro .image {
             flex: 1;
             display: flex;
@@ -74,18 +88,10 @@
         }
 
         .intro .image img {
-            width: 100%;
+            width: 50%;
             max-width: 300px;
             height: auto;
             border-radius: 50%;
-        }
-
-        section {
-            margin: 20px;
-            padding: 20px;
-            background: #101B36;
-            border-radius: 5px;
-            width: calc(100% - 40px); /* Αφαιρεί το padding από το συνολικό πλάτος */
         }
 
         h2 {
@@ -122,41 +128,37 @@
 </head>
 <body>
     <header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Connect</a>
-    </nav>
-</header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Connect</a>
+        </nav>
+    </header>
 
-<!-- Προσθήκη διαχωριστικού div για το κενό -->
-<div class="spacer"></div>
-
-<section id="about">
-    <h2>About</h2>
-    <div class="intro">
-        <div class="text">
-            <h3><p><strong> 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫 - 𝐃𝐚𝐭𝐚 𝐃𝐫𝐢𝐯𝐞𝐧 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬 </strong><br>
-            <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
-            <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
-            🎯 Strategic Planning <br>
-            💼 Campaign Management <br>
-            🔍 Analytics & Insights <br>
-            🤝 Cross-functional Collaboration
-            </p>
-            <p><strong>𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐏𝐡𝐢𝐥𝐨𝐬𝐨𝐩𝐡𝐲:</strong><br>
-            I am passionate about taking the most of every opportunity. I thrive on learning more and constantly exploring different points of view in my field. My passion for evolution and advancement drives me to stay at the forefront of digital marketing trends and technology.
-            </p>
-        <div class="image">
-            <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
-        </div>
-    </div>
-</section>
+    <!-- Spacer added here -->
+    <div class="spacer"></div>
 
     <section id="about">
         <h2>About</h2>
-        <!-- Content for the About section -->
+        <div class="intro">
+            <div class="text">
+                <h3><strong>𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫 - 𝐃𝐚𝐭𝐚 𝐃𝐫𝐢𝐯𝐞𝐧 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬</strong><br>
+                <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
+                <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
+                🎯 Strategic Planning <br>
+                💼 Campaign Management <br>
+                🔍 Analytics & Insights <br>
+                🤝 Cross-functional Collaboration
+                </p>
+                <p><strong>𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐏𝐡𝐢𝐥𝐨𝐬𝐨𝐩𝐡𝐲:</strong><br>
+                I am passionate about taking the most of every opportunity. I thrive on learning more and constantly exploring different points of view in my field. My passion for evolution and advancement drives me to stay at the forefront of digital marketing trends and technology.
+                </p>
+            </div>
+            <div class="image">
+                <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
+            </div>
+        </div>
     </section>
 
     <section id="experience">
