@@ -15,7 +15,7 @@
 
         .container {
             width: 80%;
-            margin: auto;
+            margin: left;
             overflow: hidden;
         }
 
