@@ -26,7 +26,11 @@
             text-align: center;
             position: relative;
         }
-
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Βάζει κενό χώρο ανάμεσα στο κείμενο και την εικόνα */
+}
         header img {
             position: absolute;
             left: 400px;
