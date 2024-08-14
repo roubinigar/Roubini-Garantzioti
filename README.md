@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,49 +18,38 @@
             background: #101B36;
             color: #E2E8F0;
             padding: 20px 0;
-            text-align: left;
             position: relative;
+            border-bottom: 2px solid #E2E8F0;
+            text-align: center;
         }
 
         .header-content {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: space-between;
             position: relative;
             z-index: 1;
         }
 
         header img {
-            width: 300px;
-            height: 300px;
-            border-radius: 0%;
-            margin-right: 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
         }
 
-        .intro {
-            color: #E2E8F0;
-            margin-right: 350px; /* Adjusted to make space for tabs */
-        }
-
-        .intro h3 {
+        header h1 {
             margin: 0;
-            font-size: 24px;
-        }
-
-        .intro p {
-            margin: 10px 0;
-        }
-
-        .nav-container {
-            background: #101B36;
-            padding: 10px 0;
-            text-align: right;
-            position: relative;
-            z-index: 2;
         }
 
         nav {
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            background: #101B36;
+            padding: 10px 0;
+            font-weight: bold;
+            position: relative;
+            z-index: 2;
         }
 
         nav a {
@@ -67,7 +57,6 @@
             text-decoration: none;
             padding: 0 15px;
             font-size: 18px;
-            font-weight: bold;
             transition: color 0.3s ease;
         }
 
@@ -78,7 +67,7 @@
 
         section {
             margin: 20px 0;
-            padding: 10px;
+            padding: 20px;
             background: #101B36;
             border-radius: 5px;
         }
@@ -113,12 +102,34 @@
             padding: 0;
             vertical-align: middle;
         }
+
+        .intro {
+            margin-top: 20px;
+            color: #E2E8F0;
+            text-align: center;
+        }
+
+        .intro h3 {
+            margin-top: 10px;
+            color: #E2E8F0;
+        }
+
+        .intro p {
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="header-content">
             <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
+            <h1>Roubini Garantzioti</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Connect</a>
+            </nav>
             <div class="intro">
                 <h3>
                     <a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, 
@@ -135,14 +146,6 @@
                 I am passionate about taking the most of every opportunity. I thrive on learning more and constantly exploring different points of view in my field. My passion for evolution and advancement drives me to stay at the forefront of digital marketing trends and technology.
                 </p>
             </div>
-        </div>
-        <div class="nav-container">
-            <nav>
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Connect</a>
-            </nav>
         </div>
     </header>
 
