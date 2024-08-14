@@ -29,10 +29,10 @@
 
         header img {
             position: absolute;
-            left: 10px;
+            left: 5px;
             top: 10px;
-            width: 300px;
-            height: 300px;
+            width: 350px;
+            height: 350px;
             border-radius: 0%;
         }
 
@@ -89,7 +89,7 @@
         }
 
         .social-icons img {
-            width: 22px;
+            width: 30px;
             margin-right: 0px;
             padding: 0;
             vertical-align: middle; /* Εξασφαλίζει ότι το εικονίδιο είναι ευθυγραμμισμένο κατακόρυφα με το κείμενο */
