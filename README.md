@@ -65,13 +65,20 @@
             display: flex;
             align-items: flex-start;
             padding: 20px;
-            justify-content: space-between;
+            justify-content: space-between; /* Εξασφαλίζει ότι το κείμενο και η εικόνα θα τοποθετηθούν στα δύο άκρα */
         }
 
-        .intro .text {
-            flex: 2; /* Takes 2/3 of the space */
-            margin-right: 20px;
-        }
+         .intro .text {
+             flex: 2; /* Καταλαμβάνει τα 2/3 του διαθέσιμου χώρου */
+             margin-right: 20px;
+          }
+
+              flex: 1; /* Καταλαμβάνει το 1/3 του διαθέσιμου χώρου */
+              display: flex;
+              justify-content: center;
+              align-items: center;
+           }
+
 
         .intro .text h3 {
             margin-top: 0;
@@ -80,13 +87,6 @@
 
         .intro .text p {
             margin: 10px 0;
-        }
-
-        .intro .image {
-            flex: 1; /* Takes 1/3 of the space */
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
 
         .intro .image img {
