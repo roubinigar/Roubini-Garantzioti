@@ -1,5 +1,5 @@
 <h1 style="background-color: #00008B; color: white; padding: 10px;"> 
-    Hi, I'm Roubini! <br/>
+    Roubini Garantzioti <br/>
     <a href="https://github.com/roubinigar" style="color: white;">🚀Performance Marketer</a>, 
     <a href="https://www.linkedin.com/in/roubinigarantzioti/" style="color: white;">📈 Data Driven Strategies</a>
 </h1>
