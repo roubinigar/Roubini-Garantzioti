@@ -1,5 +1,6 @@
-<h1 style="background-color: #00008B; color: white; padding: 10px;"> 
-    Roubini Garantzioti <br/>
+<body style="background-color: #00008B; color: white;">
+
+<h1> Hi, I'm Roubini! <br/>
     <a href="https://github.com/roubinigar" style="color: white;">🚀Performance Marketer</a>, 
     <a href="https://www.linkedin.com/in/roubinigarantzioti/" style="color: white;">📈 Data Driven Strategies</a>
 </h1>
@@ -7,31 +8,23 @@
 <h2>👨‍💻 Software Development Projects:</h2>
 
 - <b>Data Structures and Algorithms Practice (AlgoExpert)</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
+  - <a href="https://github.com/joshmadakor1/Algorithms-Practice" style="color: white;">Praciting DS & Algos in Python</a>
 - <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</i></b>
+  - <a href="https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964" style="color: white;"><b><i>Image Analysis Middleware</i></b> (Potentially NSFW)</a>
 - <b>PowerShell</b>
-  - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
-  - [JWipe (Disk Wiping Utility)](https://github.com/joshmadakor1/Jwipe.PowerShell)
-  - [Active Directory Bulk User Creation](https://github.com/joshmadakor1/AD_PS)
-  - [FIM (File Integrity Monitor)](https://github.com/joshmadakor1/PowerShell-Integrity-FIM)
+  - <a href="https://github.com/joshmadakor1/Sentinel-Lab" style="color: white;">Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion</a>
+  - <a href="https://github.com/joshmadakor1/Jwipe.PowerShell" style="color: white;">JWipe (Disk Wiping Utility)</a>
+  - <a href="https://github.com/joshmadakor1/AD_PS" style="color: white;">Active Directory Bulk User Creation</a>
+  - <a href="https://github.com/joshmadakor1/PowerShell-Integrity-FIM" style="color: white;">FIM (File Integrity Monitor)</a>
 - <b>C# (.NET Desktop Applications)</b>
-  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
-  - [Ransomware Proof of Concept (Decrypter)](https://github.com/joshmadakor1/DecrypterPOC)
-  - [Keylogger with Email Capability](https://github.com/joshmadakor1/Key-Logger-With-Email)
+  - <a href="https://github.com/joshmadakor1/EncrypterPOC" style="color: white;">Ransomware Proof of Concept (Encrypter)</a>
+  - <a href="https://github.com/joshmadakor1/DecrypterPOC" style="color: white;">Ransomware Proof of Concept (Decrypter)</a>
+  - <a href="https://github.com/joshmadakor1/Key-Logger-With-Email" style="color: white;">Keylogger with Email Capability</a>
 - <b>Python</b>
-  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
+  - <a href="https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm" style="color: white;">Package Delivery Application (Datastructures and Algorithms Demo)</a>
 
 <h2>📺 Popular YouTube Videos</h2>
 
-- [How to get into Cybersecurity Starting From Zero](https://www.youtube.com/watch?v=a83ASGn_V_s)
-- [A Day in the Life of a Cybersecurity Anayst](https://www.youtube.com/watch?v=uHy3oM7NnoU)
-- [How to Create a KeyLogger (C#)](https://www.youtube.com/watch?v=N-L9hklSlNk)
-- [Ransomware Demonstration (C#)](https://www.youtube.com/watch?v=OfvdQeh79s0)
-- [Is WGU Legit?](https://www.youtube.com/watch?v=E2MwRWxDBkA)
-
-<h2> Connect with me:</h2>
-
-[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-
-[linkedin]: https://linkedin.com/in/roubinigarantzioti
+- <a href="https://www.youtube.com/watch?v=a83ASGn_V_s" style="color: white;">How to get into Cybersecurity Starting From Zero</a>
+- <a href="https://www.youtube.com/watch?v=uHy3oM7NnoU" style="color: white;">A Day in the Life of a Cybersecurity Analyst</a>
+- <a href
