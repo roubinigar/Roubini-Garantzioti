@@ -117,7 +117,7 @@
         }
 
         .social-icons img {
-            width: 30px;
+            width: 25px;
             margin-right: 0px;
             padding: 0;
             vertical-align: left;
@@ -162,7 +162,7 @@
     </section>
 
     <section id="education">
-        <h2>education</h2>
+        <h2>Education</h2>
         <!-- Add your experience content here -->
     </section>
 
@@ -177,7 +177,7 @@
         <h2>Connect with me</h2>
         <p class="social-icons">
             <a href="https://linkedin.com/in/roubinigarantzioti">
-                <img align="left" alt="LinkedIn" width="30px" src="https://imgur.com/uoazLV3.jpg" />
+                <img align="left" alt="LinkedIn" width="25px" src="https://imgur.com/uoazLV3.jpg" />
                 LinkedIn
             </a>
         </p>
