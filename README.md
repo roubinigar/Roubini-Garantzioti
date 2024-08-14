@@ -148,13 +148,7 @@
                 <p><strong>𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐏𝐡𝐢𝐥𝐨𝐬𝐨𝐩𝐡𝐲:</strong><br>
                 I am passionate about taking the most of every opportunity. I thrive on learning more and constantly exploring different points of view in my field. My passion for evolution and advancement drives me to stay at the forefront of digital marketing trends and technology.
                 </p>
-            <li><b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b> - <a href="https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964">Image Analysis Middleware</a> <b><i>(Potentially NSFW)</i></b></li>
-            <li><b>PowerShell</b>:
-                <ul>
-                    <li><a href="https://github.com/joshmadakor1/Sentinel-Lab">Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion</a></li>
-                    <li><a href="https://github.com/joshmadakor1/Jwipe.PowerShell">JWipe (Disk Wiping Utility)</a></li>
-                    <li><a href="https://github.com/joshmadakor1/AD_PS">Active Directory Bulk User Creation</a></li>
-                    <li><a href="https://github.com/joshmadakor1/PowerShell-Integrity-FIM">FIM (File Integrity Monitor)</a></li>
+        
                 </ul>
             </li>
             <li><b>C# (.NET Desktop Applications)</b>:
