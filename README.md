@@ -122,7 +122,7 @@
     
     <header>
         <nav>
-            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
             <a href="#youtube">YouTube</a>
             <a href="#contact">Connect</a>
         </nav>
@@ -133,7 +133,7 @@
     </header>
 
     <section id="About">
-        <h2> About:</h2>
+        <h2> About</h2>
         <ul>
             <li><b>Data Structures and Algorithms Practice (AlgoExpert)</b> - <a href="https://github.com/joshmadakor1/Algorithms-Practice">Practicing DS & Algos in Python</a></li>
             <li><b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b> - <a href="https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964">Image Analysis Middleware</a> <b><i>(Potentially NSFW)</i></b></li>
