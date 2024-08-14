@@ -143,7 +143,7 @@
         <h2>About</h2>
         <div class="intro">
             <div class="text">
-                <h3><p><strong> 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫 - 𝐃𝐚𝐭𝐚 𝐃𝐫𝐢𝐯𝐞𝐧 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬 </strong><br></h3>
+                <h3><p><strong> 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫 - 𝐃𝐚𝐭𝐚 𝐃𝐫𝐢𝐯𝐞𝐧 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬 </strong><br>
                 <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
                 <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
                 🎯 Strategic Planning <br>
