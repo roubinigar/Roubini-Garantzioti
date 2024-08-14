@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,35 +19,35 @@
             padding: 20px 0;
             position: relative;
             border-bottom: 2px solid #E2E8F0;
-            text-align: center;
         }
 
         .header-content {
             display: flex;
-            flex-direction: column;
             align-items: center;
-            position: relative;
-            z-index: 1;
+            justify-content: space-between;
+            padding: 0 20px;
         }
 
-        header img {
+        .header-content h1 {
+            margin: 0;
+        }
+
+        .header-content img {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            margin-bottom: 20px;
-        }
-
-        header h1 {
-            margin: 0;
+            margin-left: 20px;
         }
 
         nav {
             display: flex;
-            justify-content: center;
+            justify-content: flex-end;
             background: #101B36;
             padding: 10px 0;
             font-weight: bold;
-            position: relative;
+            position: absolute;
+            top: 20px;
+            right: 20px;
             z-index: 2;
         }
 
@@ -65,8 +64,42 @@
             color: #009896;
         }
 
+        .intro {
+            display: flex;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .intro .text {
+            flex: 2;
+            margin-right: 20px;
+        }
+
+        .intro .text h3 {
+            margin-top: 0;
+            color: #E2E8F0;
+        }
+
+        .intro .text p {
+            margin: 10px 0;
+        }
+
+        .intro .image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .intro .image img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 50%;
+        }
+
         section {
-            margin: 20px 0;
+            margin: 20px;
             padding: 20px;
             background: #101B36;
             border-radius: 5px;
@@ -102,39 +135,26 @@
             padding: 0;
             vertical-align: middle;
         }
-
-        .intro {
-            margin-top: 20px;
-            color: #E2E8F0;
-            text-align: center;
-        }
-
-        .intro h3 {
-            margin-top: 10px;
-            color: #E2E8F0;
-        }
-
-        .intro p {
-            margin: 10px 0;
-        }
     </style>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
             <h1>Roubini Garantzioti</h1>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Connect</a>
-            </nav>
-            <div class="intro">
-                <h3>
-                    <a href="https://github.com/roubinigar">🚀 Performance Marketer</a>, 
-                    <a href="https://www.linkedin.com/in/roubinigarantzioti/">📈 Data Driven Strategies</a>
-                </h3>
+            <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Connect</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <div class="intro">
+            <div class="text">
                 <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
                 <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
                 🎯 Strategic Planning <br>
@@ -146,31 +166,10 @@
                 I am passionate about taking the most of every opportunity. I thrive on learning more and constantly exploring different points of view in my field. My passion for evolution and advancement drives me to stay at the forefront of digital marketing trends and technology.
                 </p>
             </div>
+            <div class="image">
+                <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
+            </div>
         </div>
-    </header>
-
-    <section id="about">
-        <h2>About</h2>
-        <ul>
-            <li><b>Data Structures and Algorithms Practice (AlgoExpert)</b> - <a href="https://github.com/joshmadakor1/Algorithms-Practice">Practicing DS & Algos in Python</a></li>
-            <li><b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b> - <a href="https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964">Image Analysis Middleware</a> <b><i>(Potentially NSFW)</i></b></li>
-            <li><b>PowerShell</b>:
-                <ul>
-                    <li><a href="https://github.com/joshmadakor1/Sentinel-Lab">Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion</a></li>
-                    <li><a href="https://github.com/joshmadakor1/Jwipe.PowerShell">JWipe (Disk Wiping Utility)</a></li>
-                    <li><a href="https://github.com/joshmadakor1/AD_PS">Active Directory Bulk User Creation</a></li>
-                    <li><a href="https://github.com/joshmadakor1/PowerShell-Integrity-FIM">FIM (File Integrity Monitor)</a></li>
-                </ul>
-            </li>
-            <li><b>C# (.NET Desktop Applications)</b>:
-                <ul>
-                    <li><a href="https://github.com/joshmadakor1/EncrypterPOC">Ransomware Proof of Concept (Encrypter)</a></li>
-                    <li><a href="https://github.com/joshmadakor1/DecrypterPOC">Ransomware Proof of Concept (Decrypter)</a></li>
-                    <li><a href="https://github.com/joshmadakor1/Key-Logger-With-Email">Keylogger with Email Capability</a></li>
-                </ul>
-            </li>
-            <li><b>Python</b> - <a href="https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm">Package Delivery Application (Datastructures and Algorithms Demo)</a></li>
-        </ul>
     </section>
 
     <section id="experience">
