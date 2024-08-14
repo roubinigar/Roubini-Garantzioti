@@ -1,4 +1,4 @@
-<h1>Hi, I'm Roubini! <br/><a href="https://github.com/joshmadakor1">Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">Cybersecurity Professional</a>, <a href="https://www.youtube.com/c/joshmadakor">YouTuber</a></h1>
+<h1>Hi, I'm Roubini! <br/><a href="https://github.com/roubinigar">Performance Marketer</a>, <a href="https://www.linkedin.com/in/roubinigarantzioti/">Data Driven Strategies</a></h1>
 
 <h2>👨‍💻 Software Development Projects:</h2>
 
