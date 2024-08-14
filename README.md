@@ -33,7 +33,7 @@
             top: 10px;
             width: 180px;
             height: 180px;
-            border-radius: 60%;
+            border-radius: 50%;
         }
 
         header h1 a {
