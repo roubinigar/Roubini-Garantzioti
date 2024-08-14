@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -138,8 +137,7 @@
     <!-- Spacer added here -->
     <div class="spacer"></div>
 
-    <section id="about">
-        <h2>About</h2>
+
         <div class="intro">
             <div class="text">
                 <h3><strong>𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫 - 𝐃𝐚𝐭𝐚 𝐃𝐫𝐢𝐯𝐞𝐧 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬</strong></h3>
@@ -158,6 +156,9 @@
                 <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
             </div>
         </div>
+    <section id="about">
+        <h2>About</h2>
+        <!-- Add your experience content here -->
     </section>
 
     <section id="experience">
