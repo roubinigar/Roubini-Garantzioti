@@ -49,7 +49,7 @@
         }
 
         nav a {
-            color: white;
+            color: #E2E8F0;
             text-decoration: none;
             padding: 0 15px;
             font-size: 18px;
