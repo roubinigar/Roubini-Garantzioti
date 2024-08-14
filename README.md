@@ -41,11 +41,9 @@
         padding: 10px 0;
         font-weight: bold;
         position: absolute;
-        top: -10px;
+        top: 0px;
         right: 20px;
         z-index: 2;
-}
-
         }
 
         nav a {
