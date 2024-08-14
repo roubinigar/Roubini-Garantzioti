@@ -36,15 +36,16 @@
         }
 
           nav {
-        display: flex;
-        justify-content: flex-end;
-        background: #101B36;
-        padding: 10px 0;
-        font-weight: bold;
-        position: absolute;
-        top: 0px;
-        right: 20px;
-        z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    background: #101B36;
+    padding: 10px 0;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    right: 0; /* Να ακουμπά στη δεξιά πλευρά */
+    z-index: 2;
+    width: 100%; /* Να καλύπτει πλήρως το πλάτος */
         }
 
         nav a {
