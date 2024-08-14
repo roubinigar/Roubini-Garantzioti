@@ -30,7 +30,7 @@
         header img {
             position: absolute;
             left: -100px;
-            top: 10px;
+            top: 8px;
             width: 250px;
             height: 250px;
             border-radius: 0%;
