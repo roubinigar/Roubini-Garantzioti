@@ -29,8 +29,6 @@
             padding: 10px 0;
             font-weight: bold;
             position: relative;
-            top: 0;
-            right: 0;
             width: 100%;
             z-index: 2;
         }
@@ -64,10 +62,11 @@
             display: flex;
             align-items: flex-start;
             padding: 20px;
+            justify-content: space-between;
         }
 
         .intro .text {
-            flex: 2;
+            flex: 2; /* Takes 2/3 of the space */
             margin-right: 20px;
         }
 
@@ -81,14 +80,14 @@
         }
 
         .intro .image {
-            flex: 1;
+            flex: 1; /* Takes 1/3 of the space */
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
         .intro .image img {
-            width: 50%;
+            width: 100%; /* Adjust image to fit within its container */
             max-width: 300px;
             height: auto;
             border-radius: 50%;
@@ -143,7 +142,7 @@
         <h2>About</h2>
         <div class="intro">
             <div class="text">
-                <h3><strong>𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫 - 𝐃𝐚𝐭𝐚 𝐃𝐫𝐢𝐯𝐞𝐧 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬</strong><br>
+                <h3><strong>𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫 - 𝐃𝐚𝐭𝐚 𝐃𝐫𝐢𝐯𝐞𝐧 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬</strong></h3>
                 <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
                 <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
                 🎯 Strategic Planning <br>
