@@ -91,7 +91,7 @@
         .social-icons img {
             width: 22px;
             margin-right: 0px;
-            vertical-align: middle;
+            vertical-align: left;
         }
     </style>
 </head>
