@@ -43,7 +43,7 @@
 
         nav {
             display: flex;
-            justify-content: left;
+            justify-content: flex-end;
             background: #101B36;
             padding: 10px 0;
         }
@@ -53,10 +53,12 @@
             text-decoration: none;
             padding: 0 15px;
             font-size: 18px;
+            transition: color 0.3s ease;
         }
 
-        nav a:hover {
-            text-decoration: none;
+        nav a:hover,
+        nav a:focus {
+            color: #009896;
         }
 
         section {
