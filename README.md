@@ -20,7 +20,9 @@
             position: relative;
             border-bottom: 2px solid #E2E8F0;
         }
-
+        .markdown-body h1 {
+         border-bottom: none;
+         }
         .header-content {
             display: flex;
             align-items: center;
