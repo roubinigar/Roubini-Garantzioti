@@ -57,6 +57,10 @@
             border-radius: 5px;
         }
 
+         /* Specific margin for the experience section */
+         #experience {
+            margin-top: 40px; /* Adjust this value to create more or less space above the Experience section */
+    
         .intro {
             display: flex;
             align-items: flex-start;
