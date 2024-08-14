@@ -19,6 +19,7 @@
             padding: 0;
             position: relative;
             border-bottom: none;
+            width: 100%; /* Να καλύπτει πλήρως το πλάτος */
         }
         .markdown-body h1 {
          border-bottom: none;
