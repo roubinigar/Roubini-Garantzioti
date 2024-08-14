@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -133,9 +132,6 @@
 </head>
 <body>
     <header>
-        <div class="header-content">
-            <h1>Roubini Garantzioti</h1>
-        </div>
         <nav>
             <a href="#about">About</a>
             <a href="#experience">Experience</a>
@@ -148,6 +144,7 @@
         <h2>About</h2>
         <div class="intro">
             <div class="text">
+                <p> Performance Marketer - Data Driven Strategies </p>
                 <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
                 <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
                 🎯 Strategic Planning <br>
