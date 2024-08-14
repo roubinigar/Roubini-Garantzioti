@@ -31,8 +31,8 @@
             position: absolute;
             left: -100px;
             top: 8px;
-            width: 250px;
-            height: 250px;
+            width: 300px;
+            height: 300px;
             border-radius: 0%;
         }
 
