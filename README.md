@@ -29,11 +29,11 @@
 
         header img {
             position: absolute;
-            left: 20px;
+            left: 15px;
             top: 10px;
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            border-radius: 0%;
         }
 
         header h1 a {
