@@ -29,10 +29,10 @@
 
         header img {
             position: absolute;
-            left: -40px;
+            left: -50px;
             top: 10px;
-            width: 350px;
-            height: 350px;
+            width: 300px;
+            height: 300px;
             border-radius: 0%;
         }
 
