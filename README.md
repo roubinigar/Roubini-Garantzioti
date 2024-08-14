@@ -16,7 +16,7 @@
         header {
             background: #101B36;
             color: #E2E8F0;
-            padding: 20px 0;
+            padding: 0;
             position: relative;
             border-bottom: 2px solid #E2E8F0;
         }
