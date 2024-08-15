@@ -57,36 +57,16 @@
             border-radius: 5px;
         }
 
-         /* Specific margin for the experience section */
-         #experience {
-            margin-top: 40px; /* Adjust this value to create more or less space above the Experience section */
-    
-       .intro {
-           display: flex;
-           justify-content: space-between;
-           padding: 20px;
-           align-items: flex-start;
+        .intro {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            align-items: flex-start;
         }
 
-         .intro .text {
-             flex: 2; /* Καταλαμβάνει τα 2/3 του διαθέσιμου χώρου */
-             margin-right: 20px;
-          }
-
-              flex: 1; /* Καταλαμβάνει το 1/3 του διαθέσιμου χώρου */
-              display: flex;
-              justify-content: center;
-              align-items: center;
-           }
-
-
-        .intro .text h3 {
-            margin-top: 0;
-            color: #E2E8F0;
-        }
-
-        .intro .text p {
-            margin: 10px 0;
+        .intro .text {
+            flex: 2; /* Καταλαμβάνει τα 2/3 του διαθέσιμου χώρου */
+            margin-right: 20px;
         }
 
         .intro .image {
@@ -94,14 +74,14 @@
             display: flex;
             justify-content: flex-end;
             align-items: center;
-         }
+        }
 
-         .intro .image img {
-             width: 100%; /* Κάνει την εικόνα να γεμίζει το 1/3 της διάταξης */
-             max-width: 300px;
-             height: auto;
-             border-radius: 50%;
-         }
+        .intro .image img {
+            width: 100%; /* Κάνει την εικόνα να γεμίζει το 1/3 της διάταξης */
+            max-width: 300px;
+            height: auto;
+            border-radius: 0%; /* Αφαιρεί το κυκλικό σχήμα της εικόνας */
+        }
 
         h2 {
             color: #E2E8F0;
@@ -138,8 +118,8 @@
 <body>
     <header>
         <nav>
-            <a href="#about">Experience</a>
-            <a href="#experience">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Connect</a>
         </nav>
@@ -148,25 +128,25 @@
     <!-- Spacer added here -->
     <div class="spacer"></div>
 
-
-        <div class="intro">
-            <div class="text">
-                <h3><strong>𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫 - 𝐃𝐚𝐭𝐚 𝐃𝐫𝐢𝐯𝐞𝐧 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬</strong></h3>
-                <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
-                <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
-                🎯 Strategic Planning <br>
-                💼 Campaign Management <br>
-                🔍 Analytics & Insights <br>
-                🤝 Cross-functional Collaboration
-                </p>
-                <p><strong>𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐏𝐡𝐢𝐥𝐨𝐬𝐨𝐩𝐡𝐲:</strong><br>
-                I am passionate about taking the most of every opportunity. I thrive on learning more and constantly exploring different points of view in my field. My passion for evolution and advancement drives me to stay at the forefront of digital marketing trends and technology.
-                </p>
-            </div>
-            <div class="image">
-                <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
-            </div>
+    <div class="intro">
+        <div class="text">
+            <h3><strong>𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 𝐌𝐚𝐫𝐤𝐞𝐭𝐞𝐫 - 𝐃𝐚𝐭𝐚 𝐃𝐫𝐢𝐯𝐞𝐧 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐞𝐬</strong></h3>
+            <p>My name is Roubini Garantzioti and I am a results-oriented Performance Marketing Manager with over 6 years of experience specializing in optimizing online campaigns to drive profitable growth and scale business impact.</p>
+            <p><strong>𝐖𝐡𝐚𝐭 𝐈 𝐝𝐨:</strong><br>
+            🎯 Strategic Planning <br>
+            💼 Campaign Management <br>
+            🔍 Analytics & Insights <br>
+            🤝 Cross-functional Collaboration
+            </p>
+            <p><strong>𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐏𝐡𝐢𝐥𝐨𝐬𝐨𝐩𝐡𝐲:</strong><br>
+            I am passionate about taking the most of every opportunity. I thrive on learning more and constantly exploring different points of view in my field. My passion for evolution and advancement drives me to stay at the forefront of digital marketing trends and technology.
+            </p>
         </div>
+        <div class="image">
+            <img src="https://imgur.com/cioTxsK.jpg" alt="Portfolio's Photo">
+        </div>
+    </div>
+    
     <section id="experience">
         <h2>Experience</h2>
         <!-- Add your experience content here -->
@@ -174,7 +154,7 @@
 
     <section id="education">
         <h2>Education</h2>
-        <!-- Add your experience content here -->
+        <!-- Add your education content here -->
     </section>
 
     <section id="projects">
