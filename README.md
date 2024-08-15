@@ -111,7 +111,7 @@
          width: 25px;
          margin: 0 auto; /* Κεντράρει την εικόνα και αφαιρεί τα περιθώρια */
          padding: 0;
-         vertical-align: middle;
+         vertical-align: left;
          display: block; /* Αφαιρεί τα περιττά περιθώρια από την εικόνα */
          }
     </style>
