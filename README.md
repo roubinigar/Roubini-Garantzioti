@@ -108,11 +108,12 @@
         }
 
         .social-icons img {
-            width: 25px;
-            margin-right: 0px;
-            padding: 0;
-            vertical-align: left;
-        }
+         width: 25px;
+         margin: 0 auto; /* Κεντράρει την εικόνα και αφαιρεί τα περιθώρια */
+         padding: 0;
+         vertical-align: middle;
+         display: block; /* Αφαιρεί τα περιττά περιθώρια από την εικόνα */
+         }
     </style>
 </head>
 <body>
